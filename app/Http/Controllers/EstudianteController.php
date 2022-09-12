@@ -63,6 +63,8 @@ class EstudianteController extends Controller
         $datoestudiante->idMuni = $request->input('idMuni');
         if($request->hasFile('docIdent')){
             $datoestudiante->docIdent = $request->file('docIdent')->store('public/estudiante');
+
+
         }
         $datoestudiante->save();//Con el comando save se registra la info en la db
         return view('estudiante.add');

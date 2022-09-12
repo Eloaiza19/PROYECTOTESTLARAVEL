@@ -24,7 +24,7 @@ class storeCursoRequest extends FormRequest
             'nombre'=>'required|max: 30',
             'descripcion'=>'required|max: 60',
             'duracion'=>'required|integer',
-            'imagen'=>'required|image'
+            'imagen'=>'required|mimes:jpg,png'
         ];
     }
 }

@@ -47,6 +47,7 @@
                 <div class="form-group">
                     <label for="numDoc">Numero de documento</label>
                     <input id="numDoc" class="form-control" type="text" name="numDoc">
+                    
                 </div>
                 <div class="form-group">
                     <label for="docIdent">Documento de identidad</label>

@@ -16,6 +16,9 @@
                             <h4 class="card-title">{{$item->nombres}} {{$item->primerApellido}} {{$item->segundoApellido}}</h4>
                             <h5 class="card-title">Numero de documento: {{$item->numDoc}}</h5>
                             <h5 class="card-title">Genero: {{$item->genero}}</h5>
+                            <h5 class="card-title">Pais: Colombia {{$item->paises}}</h5>
+                            <h5 class="card-title">Departamento: Risaralda {{$item->depNacim}}</h5>
+                            <h5 class="card-title">Municipio: Pereira {{$item->munNacim}}</h5>
                             <a href="/estudiante/{{$item->id}}" class="btn btn-dark">Ver Detalle</a>
                         </div>
                     </div>

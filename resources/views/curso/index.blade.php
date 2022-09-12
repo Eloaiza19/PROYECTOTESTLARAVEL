@@ -10,7 +10,7 @@
 
     {{--Foreach sirve para iterar arrays. Es decir permite ciclos en listas--}}
      <div class="row">
-        <p>hola estoy en el index</p>
+
          @foreach ($daticos as $item)
                 <div class="col-sm m-3">
                     <div class="card" style="width: 18rem;">
